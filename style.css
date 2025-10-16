@@ -1,35 +1,45 @@
-body {
-    background-color: #f8f8ff;
-    font-family: "Georgia", serif;
-    margin: 40px;
-    padding: 20px;
+/* Header styling */
+header {
+    background-color: #749C8C;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
 }
 
-h1 {
-    color: #2c3e50;
-}
-
-p {
-    font-size: 18px;
+/* Navigation below header */
+nav {
+    background-color: #0D3324;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 8px;
 }
 
 nav ul {
     list-style-type: none;
-    background-color: #333;
+    margin: 0;
     padding: 0;
 }
 
 nav li {
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #555;
+    color: #AEC4BB;
 }
+
+/* Main content spacing */
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
