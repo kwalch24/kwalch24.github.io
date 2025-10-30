@@ -1,3 +1,4 @@
+
 /* Header styling */
 header {
     background-color: #749C8C;
@@ -38,7 +39,7 @@ nav a:hover {
     color: #AEC4BB;
 }
 
-/* Main content spacing */
+/* Main content area */
 main {
     margin-top: 30px;
     text-align: center;
@@ -48,21 +49,25 @@ main {
     padding: 20px;
 }
 
-/* List styling — fixes bullet/text alignment issue */
+/* --- Centered list alignment fix --- */
 ul {
     list-style-position: outside;
     text-align: left;
-    display: inline-block;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 40px auto;
     padding-left: 40px;
+    width: 300px; /* ensures all lists line up evenly */
 }
 
-/* Optional — make images look cleaner and centered */
+/* Headings for sections like Movies, Music, Books */
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Optional image polish */
 img {
     margin: 10px;
     border-radius: 8px;
     max-width: 90%;
     height: auto;
 }
-
-
