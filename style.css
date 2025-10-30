@@ -42,5 +42,27 @@ nav a:hover {
 main {
     margin-top: 30px;
     text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
+
+/* List styling — fixes bullet/text alignment issue */
+ul {
+    list-style-position: outside;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 25px auto;
+    padding-left: 40px;
+}
+
+/* Optional — make images look cleaner and centered */
+img {
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 90%;
+    height: auto;
+}
+
 
