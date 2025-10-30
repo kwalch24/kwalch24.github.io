@@ -8,20 +8,24 @@ header {
 }
 
 nav {
-    display: block;
+    background-color: #0D3324;
     text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    border-radius: 8px;
 }
 
+
 nav ul {
-    display: inline-block;
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline-flex; 
+    gap: 40px; 
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 15px;
+    display: inline;
 }
 
 nav a {
@@ -73,7 +77,7 @@ footer {
     text-align: center;
     padding: 25px 0;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 100px;
     font-size: 18px;
 }
 
