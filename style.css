@@ -49,12 +49,12 @@ main {
     padding: 20px;
 }
 
-ul {
+main ul {
     list-style-position: outside;
     text-align: left;
     margin: 0 auto 40px auto;
     padding-left: 40px;
-    width: 300px; 
+    width: 300px;
 }
 
 
