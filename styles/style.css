@@ -71,6 +71,14 @@ img {
     height: auto;
 }
 
+.favorites-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 25px;
+}
+
 footer {
     background-color: #749C8C;
     color: black;
@@ -86,4 +94,5 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
+
 
